@@ -1,0 +1,22 @@
+{
+  "name": "wmail-spellchecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas101/wmail-spellchecker.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Thomas101/wmail-spellchecker/issues"
+  },
+  "homepage": "https://github.com/Thomas101/wmail-spellchecker#readme",
+  "dependencies": {
+    "nodehun": "2.0.11"
+  }
+}
