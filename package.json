@@ -1,6 +1,6 @@
 {
   "name": "wmail-spellchecker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prebuilt binaries customised for WMail",
   "main": "index.js",
   "scripts": {
