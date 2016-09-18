@@ -1,6 +1,6 @@
  nodehun
 
- Timestamp is 57cc3d9d (Sun Sep  4 15:28:29 2016)
+ Timestamp is 57dec9c6 (Sun Sep 18 17:07:18 2016)
 
  Preferred load address is 10000000
 
@@ -967,8 +967,8 @@
  0001:00031889       __is_c_termination_complete 10032889 f   libucrt:exit.obj
  0001:00031b28       ___acrt_allocate_buffer_for_argv 10032b28 f   libucrt:argv_parsing.obj
  0001:00031b7d       __configure_narrow_argv    10032b7d f   libucrt:argv_parsing.obj
- 0001:00031ce1       ??$uninitialize@A6AXAAPAPA_W@Z@?$dual_state_global@PAPA_W@__crt_state_management@@QAEXA6AXAAPAPA_W@Z@Z 10032ce1 f i libucrt:environment_initialization.obj
  0001:00031ce1       ??$uninitialize@A6AXAAPAPAD@Z@?$dual_state_global@PAPAD@__crt_state_management@@QAEXA6AXAAPAPAD@Z@Z 10032ce1 f i libucrt:environment_initialization.obj
+ 0001:00031ce1       ??$uninitialize@A6AXAAPAPA_W@Z@?$dual_state_global@PAPA_W@__crt_state_management@@QAEXA6AXAAPAPA_W@Z@Z 10032ce1 f i libucrt:environment_initialization.obj
  0001:00031d57       ___dcrt_uninitialize_environments_nolock 10032d57 f   libucrt:environment_initialization.obj
  0001:00031d8e       __initialize_narrow_environment 10032d8e f   libucrt:environment_initialization.obj
  0001:00031d93       ??$?RV<lambda_800076c951b434888f4765a74a194fcc>@@AAV<lambda_4e60a939b0d047cfe11ddc22648dfba9>@@V<lambda_6dbb1268764f43b569ce7b67e331d33a>@@@?$__crt_seh_guarded_call@H@@QAEH$$QAV<lambda_800076c951b434888f4765a74a194fcc>@@AAV<lambda_4e60a939b0d047cfe11ddc22648dfba9>@@$$QAV<lambda_6dbb1268764f43b569ce7b67e331d33a>@@@Z 10032d93 f i libucrt:onexit.obj
@@ -979,8 +979,8 @@
  0001:000320fc       __execute_onexit_table     100330fc f   libucrt:onexit.obj
  0001:00032119       __initialize_onexit_table  10033119 f   libucrt:onexit.obj
  0001:00032156       __register_onexit_function 10033156 f   libucrt:onexit.obj
- 0001:000321ae       ?do_always_noconv@?$codecvt@DDU_Mbstatet@@@std@@MBE_NXZ 100331ae f   libcpmt:cout.obj
  0001:000321ae       ___acrt_uninitialize_command_line 100331ae f   libucrt:argv_data.obj
+ 0001:000321ae       ?do_always_noconv@?$codecvt@DDU_Mbstatet@@@std@@MBE_NXZ 100331ae f   libcpmt:cout.obj
  0001:0003226e       ___acrt_initialize         1003326e f   libucrt:initialization.obj
  0001:00032280       ___acrt_thread_attach      10033280 f   libucrt:initialization.obj
  0001:0003228b       ___acrt_thread_detach      1003328b f   libucrt:initialization.obj
@@ -989,8 +989,8 @@
  0001:000322b7       __initterm                 100332b7 f   libucrt:initterm.obj
  0001:00032313       __initterm_e               10033313 f   libucrt:initterm.obj
  0001:00032358       _terminate                 10033358 f   libucrt:terminate.obj
- 0001:00032394       __strdup                   10033394 f   libucrt:strdup.obj
  0001:00032394       _strdup                    10033394 f   libucrt:strdup.obj
+ 0001:00032394       __strdup                   10033394 f   libucrt:strdup.obj
  0001:000323ea       _strcpy_s                  100333ea f   libucrt:strcpy_s.obj
  0001:00032444       __query_app_type           10033444 f   libucrt:report_runtime_error.obj
  0001:00032537       __itow_s                   10033537 f   libucrt:xtoa.obj
@@ -1048,8 +1048,8 @@
  0001:000352c5       ___acrt_uninitialize_lowio 100362c5 f   libucrt:ioinit.obj
  0001:00035337       ??$?RV<lambda_9227be29367c048ad7fd93a717dcb1a1>@@AAV<lambda_a463b7b0560cfcaf9b17f27c6ef46564>@@V<lambda_ccea11b5727ccf69be64f5f5d9a08d9f>@@@?$__crt_seh_guarded_call@H@@QAEH$$QAV<lambda_9227be29367c048ad7fd93a717dcb1a1>@@AAV<lambda_a463b7b0560cfcaf9b17f27c6ef46564>@@$$QAV<lambda_ccea11b5727ccf69be64f5f5d9a08d9f>@@@Z 10036337 f i libucrt:winapi_thunks.obj
  0001:000353bb       ??$__acrt_lock_and_call@V<lambda_a463b7b0560cfcaf9b17f27c6ef46564>@@@@YAHW4__acrt_lock_id@@$$QAV<lambda_a463b7b0560cfcaf9b17f27c6ef46564>@@@Z 100363bb f i libucrt:winapi_thunks.obj
- 0001:000353e3       ??$__crt_fast_encode_pointer@P6AHXZ@@YAP6AHXZQ6AHXZ@Z 100363e3 f i libucrt:onexit.obj
  0001:000353e3       ??$__crt_fast_encode_pointer@P6GHPA_WKJ@Z@@YAP6GHPA_WKJ@ZQ6GH0KJ@Z@Z 100363e3 f i libucrt:winapi_thunks.obj
+ 0001:000353e3       ??$__crt_fast_encode_pointer@P6AHXZ@@YAP6AHXZQ6AHXZ@Z 100363e3 f i libucrt:onexit.obj
  0001:00035567       ___acrt_AreFileApisANSI@0  10036567 f   libucrt:winapi_thunks.obj
  0001:000355b5       ___acrt_EnumSystemLocalesEx@16 100365b5 f   libucrt:winapi_thunks.obj
  0001:00035622       ___acrt_FlsAlloc@4         10036622 f   libucrt:winapi_thunks.obj
@@ -1175,14 +1175,14 @@
  0001:0003ad06       __powhlp                   1003bd06 f   libucrt:powhlp.obj
  0001:0003ae31       __wcsicmp                  1003be31 f   libucrt:wcsicmp.obj
  0001:0003aec6       __wcsicmp_l                1003bec6 f   libucrt:wcsicmp.obj
- 0001:0003afa6       ?initialize@?$dual_state_global@J@__crt_state_management@@QAEXJ@Z 1003bfa6 f i libucrt:timeset.obj
- 0001:0003afa6       ?initialize@?$dual_state_global@P6AHI@Z@__crt_state_management@@QAEXQ6AHI@Z@Z 1003bfa6 f i libucrt:new_handler.obj
- 0001:0003afa6       ?initialize@?$dual_state_global@H@__crt_state_management@@QAEXH@Z 1003bfa6 f i libucrt:timeset.obj
- 0001:0003afa6       ?initialize@?$dual_state_global@P6AHPAU_exception@@@Z@__crt_state_management@@QAEXQ6AHPAU_exception@@@Z@Z 1003bfa6 f i libucrt:matherr.obj
  0001:0003afa6       ?initialize@?$dual_state_global@P6AXPB_W00II@Z@__crt_state_management@@QAEXQ6AXPB_W00II@Z@Z 1003bfa6 f i libucrt:invalid_parameter.obj
- 0001:0003afa6       ?initialize@?$dual_state_global@PAU__crt_locale_data@@@__crt_state_management@@QAEXQAU__crt_locale_data@@@Z 1003bfa6 f i libucrt:initialization.obj
  0001:0003afa6       ?initialize@?$dual_state_global@PAPAD@__crt_state_management@@QAEXQAPAD@Z 1003bfa6 f i libucrt:environment_initialization.obj
+ 0001:0003afa6       ?initialize@?$dual_state_global@H@__crt_state_management@@QAEXH@Z 1003bfa6 f i libucrt:timeset.obj
+ 0001:0003afa6       ?initialize@?$dual_state_global@PAU__crt_locale_data@@@__crt_state_management@@QAEXQAU__crt_locale_data@@@Z 1003bfa6 f i libucrt:initialization.obj
+ 0001:0003afa6       ?initialize@?$dual_state_global@P6AHPAU_exception@@@Z@__crt_state_management@@QAEXQ6AHPAU_exception@@@Z@Z 1003bfa6 f i libucrt:matherr.obj
+ 0001:0003afa6       ?initialize@?$dual_state_global@J@__crt_state_management@@QAEXJ@Z 1003bfa6 f i libucrt:timeset.obj
  0001:0003afa6       ?initialize@?$dual_state_global@P6AXH@Z@__crt_state_management@@QAEXQ6AXH@Z@Z 1003bfa6 f i libucrt:signal.obj
+ 0001:0003afa6       ?initialize@?$dual_state_global@P6AHI@Z@__crt_state_management@@QAEXQ6AHI@Z@Z 1003bfa6 f i libucrt:new_handler.obj
  0001:0003afd7       ___acrt_initialize_timeset 1003bfd7 f   libucrt:timeset.obj
  0001:0003b00e       __isleadbyte_l             1003c00e f i libucrt:_wctype.obj
  0001:0003b409       ??1?$argument_list@D@?A0xb0e4b824@@QAE@XZ 1003c409 f i libucrt:argv_wildcards.obj
@@ -2411,7 +2411,7 @@
  0002:0000ba48       ??_C@_1BA@BALFACEM@?$AAC?$AAO?$AAN?$AAO?$AAU?$AAT?$AA$?$AA?$AA@ 1004fa48     libucrt:initcon.obj
  0002:0000bb60       ___acrt_log10_table_t      1004fb60     libucrt:log10_tables.obj
  0002:0000bf70       ___acrt_log10_table_cb     1004ff70     libucrt:log10_tables.obj
- 0002:0000c380       ??_C@_1HM@DAOIJBNC@?$AAC?$AA?3?$AA?2?$AAU?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAa?$AAp?$AAp?$AAv?$AAe?$AAy?$AAo?$AAr?$AA?2?$AA?4?$AAn?$AAo?$AAd?$AAe?$AA?9?$AAg?$AAy?$AAp?$AA?2?$AAi?$AAo?$AAj?$AAs@ 10050380     nodehun.obj
+ 0002:0000c380       ??_C@_1HM@EJMHKANH@?$AAC?$AA?3?$AA?2?$AAU?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAa?$AAp?$AAp?$AAv?$AAe?$AAy?$AAo?$AAr?$AA?2?$AA?4?$AAn?$AAo?$AAd?$AAe?$AA?9?$AAg?$AAy?$AAp?$AA?2?$AAi?$AAo?$AAj?$AAs@ 10050380     nodehun.obj
  0002:0000c3fc       ??_C@_1DG@OKCGPKIB@?$AAp?$AAe?$AAr?$AAs?$AAi?$AAs?$AAt?$AAe?$AAn?$AAt?$AA?$CI?$AA?$CJ?$AA?4?$AAI?$AAs?$AAN?$AAe?$AAa?$AAr?$AAD?$AAe?$AAa?$AAt?$AAh?$AA?$CI?$AA?$CJ?$AA?$AA@ 100503fc     nodehun.obj
  0002:0000c434       ??_C@_1CO@EGNPJLKI@?$AAp?$AAe?$AAr?$AAs?$AAi?$AAs?$AAt?$AAe?$AAn?$AAt?$AA?$CI?$AA?$CJ?$AA?4?$AAI?$AAs?$AAE?$AAm?$AAp?$AAt?$AAy?$AA?$CI?$AA?$CJ?$AA?$AA@ 10050434     nodehun.obj
  0002:0000c468       ??_C@_1EC@NOLNIHNJ@?$AAh?$AAa?$AAn?$AAd?$AAl?$AAe?$AA?9?$AA?$DO?$AAI?$AAn?$AAt?$AAe?$AAr?$AAn?$AAa?$AAl?$AAF?$AAi?$AAe?$AAl?$AAd?$AAC?$AAo?$AAu?$AAn?$AAt?$AA?$CI?$AA?$CJ?$AA?5?$AA?$DO?$AA?5?$AA0@ 10050468     nodehun.obj
