@@ -22,5 +22,12 @@
     "fs-extra": "^0.30.0",
     "node-fetch": "^1.6.0",
     "request": "^2.74.0"
+  },
+  "wmailPlatformCode": {
+    "linux_ia32": "./native/linux_ia32",
+    "linux_x64": "./native/linux_x64",
+    "win32_ia32": "./native/win32_ia32",
+    "win32_x64": "./native/win32_x64",
+    "darwin_x64": "./native/darwin_x64"
   }
 }
